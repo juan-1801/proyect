@@ -20,7 +20,7 @@ primary: {
     100: "#d0d1d5",
     200: "#a1a4ab",
     300: "#727681",
-    400: "1F2A40",
+    400: "#1F2A40",
     500: "#141b2d",
     600: "#101624",
     700: "#0c101b",
@@ -162,9 +162,7 @@ export const themeSetting = (mode) => {
                 },
             })
         },
-        typography: {
-            fontfamily: ["Source Sans Pro", "sans-serif"].join(","),
-            fontSize: 12,  
+        typography: {    
             h1: {
                 fontfamily:["Source Sans Pro", "sans-serif"].join(","),
                 fontSize: 40,
